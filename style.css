@@ -48,8 +48,9 @@ body{
     font-weight: bold;
     /* get rid of the border around the button*/
     border: none;
-    /* get rid of the outline which appears to show that button is clicked*/
-    outline:none;
+    /* get rid of the outline which appears to show that button is focused and it appears when mouse click
+    followed by keypress takes place*/
+    outline:none;    
  }
 
 .subClassAll:hover{
