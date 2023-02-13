@@ -1,0 +1,68 @@
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.mainContainer{
+    padding: 1rem;
+    width:350px;
+    height:550px;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(128, 128, 128);
+    border-radius: 3rem;
+    
+}
+.displayContainer{
+    min-height:10vh;
+    background-color:rgb(25,24,23);
+    padding:1rem;
+    font-size: 2rem;
+    color: white;
+    font-weight:500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* word wrap - break word will break the large number into new line*/
+    word-wrap: break-word;
+    border-radius: 2rem;
+}
+.numberContainer{
+    padding-top: 1rem;
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    background-color: rgb(128, 128, 128);
+}
+
+.subClassAll{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    /* get rid of the border around the button*/
+    border: none;
+    /* get rid of the outline which appears to show that button is clicked*/
+    outline:none;
+ }
+
+.subClassAll:hover{
+    background-color: rgb(123, 226, 226);
+    transform: scale(1.1);
+
+}
+.subClassAll:active{
+    background-color: rgb(196, 212, 212);
+
+}
+
+.newColor{
+    transform: scale(1.1);
+    background-color: aqua;
+}
